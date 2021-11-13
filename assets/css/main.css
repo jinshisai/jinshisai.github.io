@@ -2698,7 +2698,7 @@
 
 		.subpage #header {
 			/* background: #6cc091; */
-			background: rgba(75, 75, 93, 1); /* slightly bluer */
+			background: rgba(75, 75, 93, 1);
 			top: 0;
 			height: 44px;
 			line-height: 44px;
