@@ -2697,7 +2697,8 @@
 	}
 
 		.subpage #header {
-			background: #6cc091;
+			/* background: #6cc091; */
+			background: rgba(75, 75, 93, 1); /* slightly bluer */
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -3103,7 +3104,7 @@
 						padding: 0;
 						border: none;
 						/* margin-bottom: 1em; */
-						margin: 0 1em 1em 1em;
+						margin: 0 1.2em 1em 1.2em;
 					}
 
 		}
