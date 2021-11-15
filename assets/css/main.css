@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
+@import url(../fontawesome-versions/v5.15.4/css/all.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 
 /*
@@ -2015,7 +2015,7 @@
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 free";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2080,7 +2080,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 free";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2188,24 +2188,27 @@
 
 /* Icon */
 
-	.icon {
+	.fa, .fas, .far, .fab, .fal, .fad {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
 	}
 
-		.icon:before {
+		/*
+		.fa, .fas, .far, .fab, .fal, .fad:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 free";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
 		}
 
-		.icon > .label {
+		.fa, .fas, .far, .fab, .fal, .fad > .label {
 			display: none;
 		}
+		*/
+
 
 /* Image */
 
@@ -2895,7 +2898,7 @@
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
