@@ -1586,7 +1586,7 @@
 
 	body, input, select, textarea {
 		color: #9a9a9a;
-		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+		font-family: "Source Sans Pro", "Arial", "Helvetica", sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -2192,6 +2192,7 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		/*font-family: "Font Awesome 5 free", "Source Sans Pro", "Arial", "Helvetica", sans-serif;*/
 	}
 
 		/*
@@ -2902,12 +2903,12 @@
 			width: 5em;
 		}
 
-			#navPanel .close:before {
+			#navPanel .close::before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: "Font Awesome 5 Free";
 				font-style: normal;
-				font-weight: normal;
+				font-weight: 900;
 				text-transform: none !important;
 				content: '\f00d';
 				width: 3em;
