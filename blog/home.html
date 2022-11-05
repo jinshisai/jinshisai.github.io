@@ -13,16 +13,7 @@
 	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="../index.html" class="logo"> Jinshi Sai's Homepage</a>
-					<!-- Menu bar -->
-					<nav id="nav">
-						<a href="../index.html"> <i class="fas fa-home"> </i> </a>
-					</nav>
-					<a href="#navPanel" class="navPanelToggle"><i class="fas fa-bars"></i></a>
-				</div>
-			</header>
+		<?php include(dirname(__FILE__).'/parts/header.html'); ?>
 
 			<section id="three" class="wrapper">
 					<div class="inner">
@@ -57,23 +48,15 @@
 					</div>
 				</div>
 
-
 					</div>
 			</section>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="copyright">
-					&copy; Jinshi Sai | Design: Originally created by <a href="https://templated.co">TEMPLATED</a>. Edited by J. Sai.
-				</div>
-			</footer>
+		<?php include(dirname(__FILE__).'/parts/footer.html') ;?>
 
 		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
-			<script src="../assets/js/scroll.js"></script>
+			<script type="text/javascript" src="../assets/js/import.js"></script>
+			<script type="text/javascript"> importJS("../assets/js/") </script>
 
 	</body>
 </html>
