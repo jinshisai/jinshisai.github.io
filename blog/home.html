@@ -3,17 +3,25 @@
 <html>
 	<head>
 		<title>Astro Blog | Jinshi Sai</title>
+		<!-- Meta -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="astronomy,Jinshi Sai" />
 		<meta name="description" content="Jinshi Sai astro-blog." />
 		<meta name="google-site-verification" content="l0uHc2zkpA4amRICyYopUO9fionCUsYROECKUdctBB8" />
+		<!-- CSS -->
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!-- Scripts -->
+		<script type="text/javascript" src="../assets/js/import.js"></script>
+		<script type="text/javascript"> importJS("../assets/js/") </script>
 	</head>
 	<body class="subpage">
 
 		<!-- Header -->
-		<?php include(dirname(__FILE__).'/parts/header.html'); ?>
+			<header id="header">
+			<script> include_pages("parts/header.html") </script>
+			</header>
+
 
 			<section id="three" class="wrapper">
 					<div class="inner">
@@ -52,11 +60,9 @@
 			</section>
 
 		<!-- Footer -->
-		<?php include(dirname(__FILE__).'/parts/footer.html') ;?>
-
-		<!-- Scripts -->
-			<script type="text/javascript" src="../assets/js/import.js"></script>
-			<script type="text/javascript"> importJS("../assets/js/") </script>
+			<footer id="footer">
+			<script> include_pages("parts/footer.html", id='footer') </script>
+			</footer>
 
 	</body>
 </html>

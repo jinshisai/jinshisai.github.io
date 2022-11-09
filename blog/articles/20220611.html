@@ -8,12 +8,18 @@
 		<meta name="keywords" content="Astronomy,天文" />
 		<meta name="description" content="" />
 		<meta name="google-site-verification" content="l0uHc2zkpA4amRICyYopUO9fionCUsYROECKUdctBB8" />
+		<!-- CSS -->
 		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<!-- Scripts -->
+		<script type="text/javascript" src="../../assets/js/import.js"></script>
+		<script type="text/javascript"> importJS("../../assets/js/") </script>
 	</head>
 	<body class="subpage">
 
 		<!-- Header -->
-			<?php include(dirname(__FILE__).'/article_header.html'); ?>
+			<header id="header">
+			<script> include_pages("article_header.html") </script>
+			</header>
 
 		<!-- Contents -->
 			<section id="three" class="wrapper">
@@ -40,11 +46,9 @@
 			</section>
 
 		<!-- Footer -->
-			<?php include(dirname(__FILE__).'/../parts/footer.html'); ?>
-
-		<!-- Scripts -->
-			<script type="text/javascript" src="../../assets/js/import.js"></script>
-			<script type="text/javascript"> importJS("../../assets/js/") </script>
+			<footer id="footer">
+			<script> include_pages("../parts/footer.html", id='footer') </script>
+			</footer>
 
 	</body>
 </html>

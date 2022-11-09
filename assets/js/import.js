@@ -5,7 +5,8 @@ function importJS(relative_path) {
 	'skel.min.js',
 	'util.js',
 	'main.js',
-	'scroll.js'
+	'scroll.js',
+	'include_pages.js'
 	);
 
 	var loc = location.pathname, dir = loc.substring(0, loc.lastIndexOf('/')) + '/';
