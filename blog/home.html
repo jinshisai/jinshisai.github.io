@@ -18,9 +18,11 @@
 	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header">
-			<script> include_pages("parts/header.html") </script>
-			</header>
+			<script> include_header("parts/header.html") </script>
+			<!--
+			<script src="parts/header.js"> </script>
+			<script> header() </script>
+			-->
 
 
 			<section id="three" class="wrapper">
@@ -60,9 +62,7 @@
 			</section>
 
 		<!-- Footer -->
-			<footer id="footer">
-			<script> include_pages("parts/footer.html", id='footer') </script>
-			</footer>
+			<script> include_footer("parts/footer.html", id='footer') </script>
 
 	</body>
 </html>

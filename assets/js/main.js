@@ -40,6 +40,8 @@
 	// Off-Canvas Navigation.
 
 		// Navigation Panel.
+			$window.on('load', function() {
+				window.setTimeout(function() { // insert delay to load links correctly
 			$(
 				'<div id="navPanel">' +
 					$('#nav').html() +
@@ -55,6 +57,8 @@
 					resetForms: true,
 					side: 'left'
 				});
+			}, 50);
+			});
 
 		// Fix: Remove transitions on WP<10 (poor/buggy performance).
 			if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
